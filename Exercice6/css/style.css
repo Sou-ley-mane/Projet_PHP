@@ -1,0 +1,67 @@
+                                            header {
+                                                border: 2px solid blue;
+                                                text-align: center;
+                                                background-color: rgb(35, 21, 48);
+                                                color: white;
+                                            }
+                                            
+                                            #conteneur {
+                                                margin: 1em;
+                                                display: flex;
+                                                height: 79vh;
+                                                border: 2px solid;
+                                            }
+                                            
+                                            .form {
+                                                border: 2px solid grey;
+                                                /* height: 40em; */
+                                                flex: 2;
+                                                background-color: antiquewhite;
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                background-color: black;
+                                                color: white;
+                                            }
+                                            
+                                            label {
+                                                font-size: 2em;
+                                                margin-right: 1em;
+                                            }
+                                            
+                                            .ok {
+                                                padding: 1em 3em;
+                                                text-align: center;
+                                            }
+                                            
+                                            .form1 {
+                                                border: 2px solid grey;
+                                                /* height: 40em; */
+                                                flex: 2;
+                                                background-color: black;
+                                                color: white;
+                                                font-size: 2em;
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                            }
+                                            
+                                            footer {
+                                                border: 2px solid blue;
+                                                text-align: center;
+                                                background-color: rgb(35, 21, 48);
+                                                color: white;
+                                            }
+                                            
+                                            #bouton {
+                                                background-color: greenyellow;
+                                                padding: 1em 20em;
+                                                border-radius: 10em;
+                                                font-size: 1em;
+                                                font-weight: bold;
+                                            }
+                                            
+                                            #bouton:hover {
+                                                background-color: red;
+                                                color: white;
+                                            }

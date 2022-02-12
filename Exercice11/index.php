@@ -15,19 +15,8 @@
     
     <!-- Creation de la fonction -->
     <?php
-    if ($_POST) {
-        $n=$_POST['ok'];
-if (is_numeric($n) && $n>10000) {
-    require_once("fonction.php");
- }else{
-     echo("Veillez saisir un nombre supérieur à 10 000");
- }
-        $T=array(
-            'premier'=>ensemblePremiers($n),
-            'inferieur'=>moyenne($n),
-            'superieur'=>superieur($n)
-        );
-    }
+    include_once("controle.php")
+ 
 
     // Affichage du tableau
       
@@ -43,8 +32,6 @@ if (is_numeric($n) && $n>10000) {
 <tbody>
    <?php
     $a=count($T['premier']);
-    
-    //**************************** */
      for($i=0 ; $i< $a;$i++){
     ?>
      <tr>

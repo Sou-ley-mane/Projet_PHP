@@ -1,0 +1,71 @@
+form {
+    /* border: 2px solid rebeccapurple; */
+    width: 40em;
+    background-image: url("ok.jpg");
+    color: beige;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    padding: 1em;
+    background-size: cover;
+    border-radius: 3em;
+}
+
+.conteneur {
+    border: 2px solid red;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    background-image: url("ma.jpg");
+    background-size: cover;
+    justify-content: space-around;
+}
+
+.lab {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    /* margin-left: 2em; */
+}
+
+.ok {
+    padding: 1em 3em;
+    border-radius: 10em;
+}
+
+.bouton {
+    padding: 1em 2em;
+    border-radius: 9px;
+    background-color: green;
+}
+
+.img {
+    margin-top: 20em;
+}
+
+
+/* ************************** */
+
+.conteneur1 {
+    border: 2px solid red;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    background-image: url("ba.jpg");
+    background-size: cover;
+    justify-content: space-around;
+}
+
+.part {
+    border: 2em solid beige;
+    background-image: url("ok.jpg");
+    width: 30em;
+    height: 60vh;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+}

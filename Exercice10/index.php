@@ -14,32 +14,9 @@
     </form><br>
     <!-- Creation de la fonction -->
     <?php
-    if ($_POST) {
-       $n=$_POST['merci'];;
-    }
-    
-    function champs($n){
-        
-        if (is_numeric($n) && $n>0) {
-            # code...
-            for ($i=1; $i <=$n ; $i++) { 
-                echo'<label for="merci">Donner l\'entier N pour input '.$i.'</label><br>';
-                echo '<input type="text" name="merci" id="merci" placeholder="Input '.$i.' "><br><br>';
-             }
-        }else {
-            echo("Merci de saisir un entier positif");
-        }
-        
+   
+    include_once("controle.php");
 
-    }
-// Appel de la fonction
-try {
-    //code...
-    champs($n);
-} catch (TypeError $e) {
-    //throw $th;
-    echo "Veuillez saisir un entier \n:";
-} 
 
 
 

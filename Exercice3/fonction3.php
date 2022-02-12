@@ -1,7 +1,4 @@
 <?php
-// Les variables en globale
-  $a=rand(2,10);
-  $b=rand(3,30);
 //   Creation de la fonction "operation"
 function operation($a,$b){
     $som=$a+$b;
@@ -22,7 +19,6 @@ function operation($a,$b){
     echo("L'exponentiel de $b est : \t".$exp1."\n");
     echo("Le carré de $a est : \t".$car1."\n");
 }
-// Appel de la fonction
-operation($a,$b);
+
 
 ?>

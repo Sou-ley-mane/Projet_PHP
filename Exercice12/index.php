@@ -7,7 +7,22 @@
     <title>Exercice12</title>
 </head>
 <body>
+    <form method="post" action="">
+<select name="lang" id="">
+    <option value="fr">Français</option>
+    <option value="en">Anglais</option>
+</select>
+    <input type="submit" value="Voir les mois">
+    </form>
+    <?php
+    include_once("fonction.php");
+    // ******************************************
     
+
+
+
+    ?>
+
     
 </body>
 </html>

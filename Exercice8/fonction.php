@@ -1,11 +1,11 @@
 <?php
-function liste($n){
-    if ($n>0) {
-        for ($i=0; $i < $n; $i++) { 
-            echo '<UL>';
+   function liste($n){
+      
+    if ($n>0 && is_numeric($n)) {
+        for ($i=1; $i <= $n; $i++) { 
+            echo '<ul>';
                    echo '<li>' .$i. '</li>';
-            echo '</UL>';
-            
+            echo '</ul>';
                 }
     }
     else {

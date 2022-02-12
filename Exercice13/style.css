@@ -1,0 +1,23 @@
+form {
+    display: flex;
+    justify-content: space-around;
+}
+
+header h1 {
+    text-align: center;
+    border: 2px solid;
+    background-color: black;
+    color: aliceblue;
+    padding: 0.5em;
+}
+
+.conteneur {
+    border: 2px solid;
+    background-color: aqua;
+    height: 75vh;
+    padding: 1em;
+}
+
+label {
+    text-align: center;
+}

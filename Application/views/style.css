@@ -49,8 +49,8 @@ form {
 /* ************************** */
 
 .conteneur1 {
-    border: 2px solid red;
-    height: 98vh;
+    /* border: 2px solid red; */
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,4 +68,23 @@ form {
     padding: 1em;
     display: flex;
     align-items: center;
+}
+
+header h1 {
+    /* border: 2px solid green; */
+    /* text-align: center; */
+    /* height: 2em; */
+    padding: 1em;
+    background-color: black;
+    color: white;
+    margin: 0%;
+}
+
+footer {
+    /* border: 2px solid green; */
+    text-align: center;
+    /* height: 2em; */
+    padding: 1em;
+    background-color: black;
+    color: white;
 }

@@ -1,32 +1,48 @@
-<?php                                         
- if ( isset($_POST) ) {
-     $contenue=$_POST['text'];
-$searchString = "/\s+/";
-$replaceString ="";
-$originalString = $contenue;
 
-$textcorrige = preg_replace($searchString, $replaceString, $originalString);
-if(preg_match("/^[A-Z]/",$textcorrige) ) 
- {echo $contenue; 
+
+<?php
+//******************************************/                                         
+function supprimeEspace($chaine){
+    $valeur = preg_replace('/\s+/',' ', $chaine);
+    $res=deleteSpecialChar($valeur);
+    // $res=premierLetMaj($res);
+    echo $res;
 }
-else {
-    echo "commence par une lettre majuscule"; 
-} echo die();
-    // *****************************
-    // echo("$originalString \n"); 
-    if ($textcorrige) {
-        # code...
+
+
+//--------------------------------------------
+
+function deleteSpecialChar($str) {  
+    // remplacer tous les caractères spéciaux par une chaîne vide
+    $res = str_replace( array( '%', '@', '\'', ';', '<', '>' ), '', $str); 
+    return $res;
+}
+
+//-----------------------------------------
+function majiscule($str){
+    if (preg_match("/^[A-Z]/","$str") && strlen($str)>=25){
+         supprimeEspace($str); 
+    }else {
+        echo("Commencez par une lettre majiscule");
     }
-    echo $textcorrige; 
-// echo("$textcorrige");                                            
- }
 
+}
+// -------------------------------------------
 
-//  *******************************
- 
- 
- 
+if (isset($_POST) ) {
+    $contenu=$_POST['text'];
+   
+    // *********************
+    // Appeler la fonction
+//    supprimeEspace($contenu);
+   majiscule($contenu);
+
+    
+   
+   
+    
+
+}
 
 ?>
-
 

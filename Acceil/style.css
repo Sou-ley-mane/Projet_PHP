@@ -1,0 +1,36 @@
+a {
+    font-size: 1em;
+    color: white;
+}
+
+li {
+    margin: 1.5em;
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    background-color: black;
+}
+
+.conteneur {
+    display: flex;
+    height: 79vh;
+    background-image: url(ok.jpg);
+    background-size: cover;
+    margin: 0%;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 1em 2em;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 1em 2em;
+}

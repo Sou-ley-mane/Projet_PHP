@@ -19,13 +19,13 @@
         <!-- ****** *******************************-->
         <div>
         <label for="">SAISIR UN TEXTE</label><br>
-        <textarea name="text" id="" cols="80" rows="40"></textarea><br>
-        <input type="submit" name="valider"><br>
+        <textarea name="text" id="" cols="80" rows="40"></textarea><br><br>
+        <input type="submit" class="ok"><br>
         </div>
 <!-- ************************************ -->
         <div>
         <label for="">TEXTE APRÉS CORRECTION</label><br>
-        <textarea name="" id="" cols="80" rows="40"><?php                                         
+        <textarea name="" id="" cols="80" rows="40" readonly><?php                                         
 include_once("controle.php");
 ?>
         </textarea><br>
